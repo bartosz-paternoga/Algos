@@ -1,1 +1,1 @@
-# Algos
+Game of go
