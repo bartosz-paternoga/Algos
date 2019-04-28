@@ -1,1 +1,1 @@
-Game of go
+Machine learning -> Game of go
