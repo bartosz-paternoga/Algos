@@ -14,7 +14,7 @@ from keras.layers import Activation
 
 import time
 
-board_size = (3,3)
+board_size = (19,19)
 
 encoder = oneplane.OnePlaneEncoder(board_size)
 model = Sequential()
@@ -67,7 +67,7 @@ def print_board(board):
     print(' ' + ' '.join(COLS[:board.num_cols]))
 
 def main():
-    board_size = 3
+    board_size = 19
     game = goboard.GameState.new_game(board_size)
     bots = {
         #gotypes.Player.black: naive.RandomBot(),
